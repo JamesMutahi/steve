@@ -36,6 +36,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
+    'blog.apps.BlogConfig',
+    'lms.apps.LmsConfig',
+    'store.apps.StoreConfig',
     'bootstrap4',
     'crispy_forms',
 ]
